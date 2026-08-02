@@ -266,32 +266,32 @@
 //     }
 // }
 
-class Car {
-   Car() {
-        System.out.println("Speed = 1");
-    }
-}
+// class Car {
+//    Car() {
+//         System.out.println("Speed = 1");
+//     }
+// }
 
-class Car2 extends Car {
+// class Car2 extends Car {
     
-    Car2() {
-        System.out.println("Speed = 2");
-    }
-}
+//     Car2() {
+//         System.out.println("Speed = 2");
+//     }
+// }
 
-class Car3 extends Car {
+// class Car3 extends Car {
     
-    Car3() {
-        System.out.println("Speed = 3");
-    }
-}
+//     Car3() {
+//         System.out.println("Speed = 3");
+//     }
+// }
 
-public class oop{
-    public static void main(String[] args) {
+// public class oop{
+//     public static void main(String[] args) {
 
-        Car c1 = new Car2();
-        Car c2 = new Car3();
+//         Car c1 = new Car2();
+//         Car c2 = new Car3();
         
 
-    }
-}
+//     }
+// }
