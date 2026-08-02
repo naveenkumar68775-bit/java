@@ -1,12 +1,12 @@
-interface car{
-    void tata();
-}
-interface truck{
-    void mahindra();
-}
-class interface implements  {
+// interface car{
+//     void tata();
+// }
+// interface truck{
+//     void mahindra();
+// }
+// class interface implements  {
     
-    public static void main(String[]args){
+//     public static void main(String[]args){
 
-    }
-}
+//     }
+// }
