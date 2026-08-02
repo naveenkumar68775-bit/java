@@ -3,11 +3,11 @@
 //         System.out.println("Hello World");
 //     }
 // }
-import java.util.Scanner;
-import java.util.Arrays;
-class each {
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
+// import java.util.Scanner;
+// import java.util.Arrays;
+// class each {
+//     public static void main(String[]args){
+//         Scanner sc=new Scanner(System.in);
         // int a=sc.nextInt();
         // int b=sc.nextInt();
         // int c=a+b;
@@ -84,15 +84,15 @@ class each {
         // }
         int n=sc.nextInt();
 
-        int[] arr=new int[n];
-        for (int i=1 ; i<=n;i++){
-            arr [i]=sc.nextInt();
-        }
-        Arrays.sort(arr);
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
-        }
+//         int[] arr=new int[n];
+//         for (int i=1 ; i<=n;i++){
+//             arr [i]=sc.nextInt();
+//         }
+//         Arrays.sort(arr);
+//         for(int i=0;i<n;i++){
+//             System.out.print(arr[i]+" ");
+//         }
        
 
-    }
-}
+//     }
+// }
