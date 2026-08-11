@@ -12,27 +12,28 @@ import java.util.*;
 // }
 
 
-class solution
-{
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1786);
-        list.add(2006);
-        list.add(3020);
+// class solution
+// {
+//     public static void main(String[] args) {
+//         List<Integer> list = new ArrayList<>();
+//         list.add(1786);
+//         list.add(2006);
+//         list.add(3020);
        
-        list.add(1,688);
-         System.out.println(list);
-         list.remove(1);
-        list.set(0, 6626);
-        list.addFirst(111);
-        for(int i: list){
-            System.out.println(i);
-        }
+//         list.add(1,688);
+//          System.out.println(list);
+//          list.remove(1);
+//         list.set(0, 6626);
+//         list.addFirst(111);
+//         list.addLast(10000);
+//         for(int i: list){
+//             System.out.println(i);
+//         }
        
 
 
-    }
-}
+//     }
+// }
 
 // class solution{
 //     public static void main(String[] args) {
@@ -49,3 +50,17 @@ class solution
 //         System.out.println(list);
 //     }
 // }
+
+class solution{
+    public static void main(String []args){
+        System.out.println("God of thunder");
+
+        Scanner sc=new Scanner(System.in);
+        List<Integer> v=new ArrayList<>();
+        int n=5;
+        int s;
+        for(int i=1;i<=n;i++){
+            s[i]=v.add(sc.nextInt());
+        }
+    }
+}
