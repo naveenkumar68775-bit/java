@@ -277,3 +277,21 @@ class thunder{
 //     System.out.println(false);
 // }
 
+
+// int n=12345678;
+// int n2=5837124;
+
+// char [] v1=String.valueOf(n).toCharArray();
+// char [] v2=String.valueOf(n2).toCharArray();
+
+
+// Arrays.sort(v1);
+// Arrays.sort(v2);
+
+// if(Arrays.equals(v1,v2)){
+//     System.out.println("Anagram");
+// }
+// else{
+//     System.out.println(false);
+// }
+
