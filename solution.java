@@ -108,7 +108,7 @@ import java.util.*;
 //         }
 //     }
 // }
-
+import java.util.*;
 class solution{
     public static void main(String [] args){
         // StringBuffer v=new StringBuffer();
@@ -121,6 +121,59 @@ class solution{
         // StringBuilder v=new StringBuilder("Store");
         // v.append("Maximum");
         // System.out.println(v);
+
+        // String s="programming";
+        // String[]v=s.split("");
+        // int vowels=0;
+        // int consonants=0;
+        // for(int i=0;i<s.length();i++){
+        //     char ch=s.charAt(i);
+        //     if(ch=='a'|| ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+        //         vowels++;
+        //     }
+        //     else{
+        //         consonants++;
+        //     }
+        // }
+        // System.out.println(vowels);
+        // System.out.println(consonants);
+
+        // String name="Java is easy to learn";
+        // String []n=name.split(" ");
+        // int count =0;
+        // for(int i=0;i<=n.length-1;i++){
+        //     count++;
+        // }
+        // System.out.println(count);
+        Scanner sc=new Scanner(System.in);
+        // String n=sc.nextLine();
+        // char v=sc.next().charAt(0);
+        // int count=0;
+
+        // for(int i=0;i<=n.length()-1;i++){
+        //     char c=n.charAt(i);
+        //     if(c==v){
+        //         count++;
+        //     }
+        // }
+        // System.out.println(count);
+
+        // String name=sc.nextLine();
+        // String n[]=name.split("");
+        // char c=0;
+        // for(int i=0;i<=name.length()-1;i++){
+        //     for(int j=i+1;j<=name.length()-1;j++){
+        //         if(n[i].equals(n[j])){
+        //             System.out.println(n[i]);
+
+        //         }
+
+        //     }
+        // }
+
+
+     
+
 
     }
 
