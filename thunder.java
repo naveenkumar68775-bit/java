@@ -261,3 +261,19 @@ class thunder{
 // String b = new String("Java");
 // System.out.println(a == b);
 // System.out.println(a.equals(b));
+
+// String v1="naveen";
+// String v2="neeavn";
+
+// char []c1=v1.toCharArray();
+// char []c2=v2.toCharArray();
+
+// Arrays.sort(c1);
+// Arrays.sort(c2);
+// if(Arrays.equals(c1,c2)){
+//     System.out.println("Anagram");
+// }
+// else{
+//     System.out.println(false);
+// }
+
