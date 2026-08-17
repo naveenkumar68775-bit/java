@@ -108,3 +108,18 @@
 // //         sc.close();
 // //     }
 // // }
+// class nav{
+//     private int a=10;
+//     private int b=20;
+
+//     public int getA(){
+//         return a;
+//     }
+//     public int getB(){
+//         return b;
+//     }
+//     int c;
+//     public nav (){
+//         System.out.println(c=a+b);
+//     }
+    
