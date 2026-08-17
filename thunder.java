@@ -295,3 +295,35 @@ class thunder{
 //     System.out.println(false);
 // }
 
+
+// String s="java the it program grammiengit language";
+
+// String []v=s.split(" ");
+// String longest=v[0];
+// String smallest=v[0];
+
+// for(String i:v){
+//     if(i.length()>longest.length()){
+//         longest=i;
+//     }
+//     if(i.length()<smallest.length()){
+//         smallest=i;
+//     }
+// }
+// System.out.println(longest);
+// System.out.println(smallest);
+     
+String s="Java is powerful";
+// String []v=s.split(" ");
+// String add="";
+// for(int i=0;i<v.length-1;i++){
+//     add=add+v[i];
+// }
+// System.out.println(add);
+
+//     }
+// }
+
+String v=s.replaceAll(" ", "");
+System.out.println(v);
+    }}
