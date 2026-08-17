@@ -51,16 +51,77 @@ import java.util.*;
 //     }
 // }
 
-class solution{
-    public static void main(String []args){
-        System.out.println("God of thunder");
+// class solution{
+//     public static void main(String []args){
+//         System.out.println("God of thunder");
 
-        Scanner sc=new Scanner(System.in);
-        List<Integer> v=new ArrayList<>();
-        int n=5;
-        int s;
-        for(int i=1;i<=n;i++){
-            s[i]=v.add(sc.nextInt());
-        }
+//         Scanner sc=new Scanner(System.in);
+//         List<Integer> v=new ArrayList<>();
+//         int n=5;
+//         for(int i=1;i<=n;i++){
+//             v.add(sc.nextInt());
+//         }
+//         System.out.println(v);
+//     }
+// }
+
+// class solution{
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         int n=sc.nextInt();
+//         int a=0;int b=1;int next;
+//         System.out.println(a);
+//         System.out.println(b);
+//         for(int i=3;i<=n;i++){
+            
+//             next = a+b;
+//             System.out.println(next);
+//             a=b;
+//             b=next;
+//         }
+//     }
+// }
+
+// class solution{
+//     public static void main(String[]args){
+//         int n=12345;
+//         int rev=0;
+
+//         while(n>0){
+//             int digit=n%10;
+//             rev = rev*10+digit;
+//             n=n/10;
+//         }
+//         System.out.println(rev);
+//     }
+// }
+
+// class solution{
+//     public static void main(String[] args) {
+//         boolean f=false;
+//         if(f==true){
+//             System.out.println("Allow");
+
+//         }
+//         else{
+//             System.out.println("Not");
+//         }
+//     }
+// }
+
+class solution{
+    public static void main(String [] args){
+        // StringBuffer v=new StringBuffer();
+        // v.append("Thunder");
+        // v.append("Light");
+        // System.out.println(v);
+        // v.reverse();
+        // System.out.println(v);
+
+        // StringBuilder v=new StringBuilder("Store");
+        // v.append("Maximum");
+        // System.out.println(v);
+
     }
+
 }
