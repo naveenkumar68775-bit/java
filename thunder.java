@@ -123,3 +123,43 @@
 //         System.out.println(c=a+b);
 //     }
     
+
+// }
+
+// class thunder{
+//     public static void main(String[] args) {
+//         nav n=new nav();
+//         System.out.println(n.getA());
+//         System.out.println(n.getB());
+       
+//     }
+// }
+
+
+import java.util.*;
+
+class thunder{
+    public static void main(String[] args) {
+        // String n="hello";
+        // String v[]=n.split("");
+        // int a=v.length-1;
+        // String store="";
+        // for(int i=a;i>=0;i--){
+        //     store=store+v[i];
+        // }
+        // System.out.println(store);
+
+        // String n="madam";
+        // String temp=n;
+        // String v[]=n.split("");
+        //  int a=v.length-1;
+        // String store="";
+        // for(int i=a;i>=0;i--){
+        //     store=store+v[i];
+        // }
+        // if(temp.equals(store)){
+        //     System.out.println(true);
+        // }
+        // else{
+        //     System.out.println(false);
+        // }
