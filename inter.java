@@ -94,12 +94,19 @@ public class inter{
             //     System.out.println(temp);
             // }
 
-            int n=12345;
-            while(n>0){
-                int v=n%10;
-                System.out.println(v);
-                n=n/10;
+            // int n=12345;
+            // while(n>0){
+            //     int v=n%10;
+            //     System.out.println(v);
+            //     n=n/10;
+            // }
+
+            String s="naveen";
+            String s1="";
+            for(int i=s.length()-1;i>=0;i--){
+                s1=s1+s.charAt(i);
             }
+            System.out.println(s1);
             
 
 
