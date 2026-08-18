@@ -108,13 +108,28 @@ public class inter{
             // }
             // System.out.println(s1);
 
-            String s="thunder";
-            String s1="";
-            for(int i=s.length()-1;i>=0;i--){       
+            // String s="thunder";
+            // String s1="";
+            // for(int i=s.length()-1;i>=0;i--){       
                 
+            //     s1=s1+s.charAt(i);
+            // }       
+            // System.out.println(s1);
+
+            String s="1212";
+            String dup=s;
+            String s1="";
+            for(int i=s.length()-1;i>=0;i--){
                 s1=s1+s.charAt(i);
-            }       
-            System.out.println(s1);
+            }
+            if(s1.equals(dup)){
+                
+                System.out.println("palindrome");
+            }
+            else{
+                System.out.println("not palindrome");
+            }
+            
             
 
 
