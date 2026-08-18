@@ -79,6 +79,22 @@ public class inter{
             // }
             // System.out.println(v);
 
+            int []n={10,5,8,25,20};
+            int temp=0;
+            for(int i=0;i<n.length-1;i++){
+                for(int j=0;j<n.length-i-1;j++){
+                    if(n[j]>n[j+1]){
+                        temp=n[j];
+                        n[j]=n[j+1];
+                        n[j+1]=temp;
+                        
+                    }
+
+                }
+                System.out.println(temp);
+            }
+            
+
 
              
 
