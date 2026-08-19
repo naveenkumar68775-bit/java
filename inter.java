@@ -20,9 +20,13 @@ import java.util.Queue;
 import java.util.Set;
 /**
  * interface
+ * 
+ * 
  */
+import java.util.*;
 public class inter{
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
         
     
         // ArrayList<Integer> n=new ArrayList<>();
@@ -116,25 +120,109 @@ public class inter{
             // }       
             // System.out.println(s1);
 
-            String s="1212";
-            String dup=s;
-            String s1="";
-            for(int i=s.length()-1;i>=0;i--){
-                s1=s1+s.charAt(i);
-            }
-            if(s1.equals(dup)){
+            // String s="1212";
+            // String dup=s;
+            // String s1="";
+            // for(int i=s.length()-1;i>=0;i--){
+            //     s1=s1+s.charAt(i);
+            // }
+            // if(s1.equals(dup)){
                 
-                System.out.println("palindrome");
-            }
-            else{
-                System.out.println("not palindrome");
-            }
+            //     System.out.println("palindrome");
+            // }
+            // else{
+            //     System.out.println("not palindrome");
+            // }
             
+            // Scanner n=sc.nextLine();
+            //  String s=sc.nextLine();
+            //  char []c=s.toCharArray();
+            // //  String total=""; 
+            //  char ch;   
+            //  int t=s.length()-1;                          
+            //  for(int i=0;i<=s.length()-1;i=i+2){
+            //     int value=s.indexOf(i);
+            //     for(int j=0;j<value;j++){
+            //         if(t%2!=0){
+            //             ch=s.charAt(i);
+            //             for(int k=0;k<=i;k++){
+            //                 System.out.println(ch);
+            //             }
+            //         }
+            //     }
+            // }
+
+            // String s="a3b2c6";
+            // char []ch=s.toCharArray();
+            // String total="";
+            // for(int i=0;i<=s.length()-1;i=i+2){
+            //     int index=s.indexOf(i);
+            //     for(int k=1;k<=s.length();k++){
+            //         if(k%2!=0){
+            //             char iam=s.charAt(i);
+            //             for(int j=1;j<=index;j++){
+            //                 System.out.println(iam);
+
+            //         }
+            //     }
+            //     }
+              
+            // }
+//             String s = "a3b2c6";
+// String total = "";
+
+// for (int i = 0; i < s.length(); i += 2) {
+
+//     char ch = s.charAt(i);
+//     int count = s.charAt(i + 1) -'0';
+
+//     for (int j = 1; j <= count; j++) {
+//         total += ch;
+//     }
+// }
+
+// System.out.println(total);
+
+// String s="n2a3v2";
+
+// String v="";
+
+// for(int i=0;i<=s.length()-1;i=i+2){
+//     char ch=s.charAt(i);
+//     int count =s.charAt(i+1)-'0';
+//     for(int j=0;j<count;j++){
+//         v=v+ch;
+//     }
+// }
+// System.out.println(v);
+
+// String n="naveen";
+// char []v=n.toCharArray();
+// for(int i=0;i<=n.length()-1;i++){
+//     char ch=n.charAt(i);
+//     for(int j=i+1;j<=n.length()-1;j++){
+//         if(v[i]==v[j]){
+//             System.out.println(v[i]);
+
+//         }
+//     }
+// }
+// int n=sc.nextInt();
+// ArrayList<Integer> v=new ArrayList<>(n);
+// for(int i=0;i<n;i++){
+    
+//     v.add(sc.nextInt());
+}
+// for(int i=0;i<n;i++){
+    // System.out.println(v);
+
+// }
+
+
             
 
 
              
-
+        }
 
     }  
-} 
