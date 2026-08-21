@@ -261,6 +261,17 @@ public class inter{
         //     }
         // }
 
+        // String n="1234";
+        // int a=n.length();
+        // System.out.print(a);
+        // int b=n.length()-1;
+        // System.out.print(b);
+        //  int c=n.length()-2;
+        // System.out.print(c);
+        //  int d=n.length()-3;
+        // System.out.print(d);
+       
+
 
        
     }
