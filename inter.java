@@ -212,17 +212,56 @@ public class inter{
 // for(int i=0;i<n;i++){
     
 //     v.add(sc.nextInt());
-}
+// }
 // for(int i=0;i<n;i++){
     // System.out.println(v);
 
 // }
 
+            // int n=sc.nextInt();
+            // HashSet <Integer> v=new HashSet<>(n);
 
-            
+            // for(int i=0;i<n;i++){
+            //     v.add(sc.nextInt());
+                
+            // }
+            // System.out.println(v);
+            // import java.util.*;
 
 
-             
-        }
+        // Scanner sc = new Scanner(System.in);
 
-    }  
+        // int n = sc.nextInt();
+
+        // int []v=new int[n];
+
+        // for(int i=0;i<n;i++){
+        //     v[i]=sc.nextInt();
+
+        // }
+        // for(int i=0;i<v.length;i++){
+        //     for(int j=i+1;j<v.length;j++){
+        //         if(v[i]==v[j]){
+        //             System.out.print("Count: "+v[i] +" ");
+        //         }
+        //     }
+        // }
+        // int n=sc.nextInt();
+        // ArrayList <Integer> v=new ArrayList<>(n);
+        // for(int i=0;i<n;i++){
+        //     v.add(sc.nextInt());
+        // }
+        // for(int i=0;i<n;i++){
+        //     for(int j=i+1;j<n;j++){
+        //         if(v.get(i)>v.get(j)){
+        //             int temp  =v.get(i);
+                    
+
+        //         }
+        //     }
+        // }
+
+
+       
+    }
+}
