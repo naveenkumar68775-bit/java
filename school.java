@@ -57,21 +57,32 @@
 //     }
 // }
 
+// class school{
+//     public static void main(String[] args) {
+//         int n=10;
+//         int m=20;
+//         int v[][]=new int[n][m];
+//         for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+//                 v[i][j]=i+j;
+//             }
+//         }
+//         for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+//                 System.out.print(v[i][j]+" ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
 class school{
     public static void main(String[] args) {
-        int n=10;
-        int m=20;
-        int v[][]=new int[n][m];
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                v[i][j]=i+j;
-            }
+       for(char i='A';i<='Z';i++){
+        for(char j='A';j<=i;j++){
+            System.out.print(j);
         }
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                System.out.print(v[i][j]+" ");
-            }
-            System.out.println();
-        }
+        System.out.println();
+       }
     }
 }
