@@ -19,8 +19,15 @@
 // }
 
 class school{
-    static String name="Thunder";
+    String name;
+    school(String name){
+        this.name=name;
+    }
+    // static String name="Thunder";
     public static void main(String []args){
-        System.out.println(name);
+        // System.out.println();
+        school v=new school("Ligthning");
+        System.out.println(v.name);
+
     }
 }
