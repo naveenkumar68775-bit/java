@@ -19,15 +19,24 @@
 // }
 
 class school{
-    String name;
-    school(String name){
-        this.name=name;
-    }
+    // String name;
+    // school(String name){
+    //     this.name=name;
+    // }
     // static String name="Thunder";
     public static void main(String []args){
         // System.out.println();
-        school v=new school("Ligthning");
-        System.out.println(v.name);
+    //     school v=new school("Ligthning");
+    //     System.out.println(v.name);
 
+    // }
+    try {
+        int n=10/0;
     }
-}
+    catch(ArithmeticException e){
+        System.out.println("Error");
+    }
+    finally{
+        System.out.println("Hello");
+    }
+}}
