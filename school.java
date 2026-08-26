@@ -24,19 +24,24 @@ class school{
     //     this.name=name;
     // }
     // static String name="Thunder";
+    void mai(){
+        System.out.println("Hello");
+    }
     public static void main(String []args){
         // System.out.println();
     //     school v=new school("Ligthning");
     //     System.out.println(v.name);
 
     // }
-    try {
-        int n=10/0;
-    }
-    catch(ArithmeticException e){
-        System.out.println("Error");
-    }
-    finally{
-        System.out.println("Hello");
-    }
+    // try {
+    //     int n=10/0;
+    // }
+    // catch(ArithmeticException e){
+    //     System.out.println("Error");
+    // }
+    // finally{
+    //     System.out.println("Hello");
+    // }
+    school v=new school();
+        v.mai();
 }}
