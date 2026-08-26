@@ -270,9 +270,90 @@ public class inter{
         // System.out.print(c);
         //  int d=n.length()-3;
         // System.out.print(d);
-       
+        // String name ="naveen";
+        // char[]v=name.toCharArray();
+        // for(int i=0;i<=name.length();i++){
+        //     for(int j=i+1;j<name.length();j++){
+        //         if(v[i]==v[j]){
+        //             System.out.print(v[i]);
+        //         }
+        //     }
 
+        // }
 
+        // System.out.printf("My name is %s","God");
+
+        // System.out.println('a'+'b');
+        // System.out.println(3+((char)'a'));
+    // int size=6;
+    // int v[]=new int[8];
+    // v[0]=10;
+    // v[1]=80;
+    // v[2]=20;
+    // v[3]=30;
+    // v[4]=40;
+    // int num=100;
+    // int element=4;
+    // int size=6;
+    // if(element<size){
+    //     for(int j=size;j>element-1;j--){
+    //         v[j]=v[j-2];
+    //     }
+    //     v[element]=num;
+    //     size++;
+    // }
+
+    // for(int i=0;i<v.length-1;i++){
+    //     System.out.println(v[i]);
+    // }
+    // System.out.println(v);/\\
+  
+    int v[]=new int[10];
+    v[0]=10;
+    v[1]=80;
+    v[2]=20;
+    v[3]=30;
+
+    int size=4;
+    int index=2;
+    int element =30;
+    // int element=50;
+    // if(index<size){
+    //     for(int i=size;i>index;i--){
+    //         v[i]=v[i-1];
+    //     }
+    //     v[index]=element;
+    //     size++;
+    // }
+    // for(int i=0;i<size;i++){
+    //     System.out.print(v[i]+" ");
+    // }
+
+    // if(size>0){
+    //     for(int i=0;i<size-1;i++){
+    //         v[i]=v[i+1];
+    //     }
+        
+    // }
+    // for(int i=0;i<size-1;i++){
+    //     System.out.print(v[i]+ " ");
+    // }
+
+    // if(size>0){
+    //     for(int i=index;i<size;i++){
+    //         v[i]=v[i+1];
+    //     }
+    //     size--;
+    // }
+    // for(int i=0;i<size;i++){
+    //     System.out.print(v[i]+ " ");
+    // }
+
+    // for(int i=0;i<size;i++){
+    //     if(v[i]==element){
+    //         System.out.println("index :"+i);
+    //     }
+    // }
        
     }
 }
