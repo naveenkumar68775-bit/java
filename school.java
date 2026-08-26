@@ -106,14 +106,29 @@
 //         System.out.println(v);
 //     }
 // }
+// class school{
+//     public static void main(String[] args) {
+//         int n=10;
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print(j);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
 class school{
     public static void main(String[] args) {
-        int n=10;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=i;j++){
-                System.out.print(j);
-            }
-            System.out.println();
+        try{
+            
+            int n=10/0;
+        }
+        catch(ArithmeticException e){
+            System.out.println("Error");
+        }
+        finally{
+            System.out.println("Hello");
         }
     }
 }
