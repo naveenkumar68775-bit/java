@@ -118,17 +118,35 @@
 //     }
 // }
 
-class school{
-    public static void main(String[] args) {
-        try{
+// class school{
+//     public static void main(String[] args) {
+//         try{
             
-            int n=10/0;
-        }
-        catch(ArithmeticException e){
-            System.out.println("Error");
-        }
-        finally{
-            System.out.println("Hello");
-        }
+//             int n=10/0;
+//         }
+//         catch(ArithmeticException e){
+//             System.out.println("Error");
+//         }
+//         finally{
+//             System.out.println("Hello");
+//         }
+    // }
+// }
+
+
+/**
+ * school
+ */
+import java.util.*;
+public class school {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<n.length;i++){
+        //     System.out.print(" "+n[i]);
+        // }
     }
 }
