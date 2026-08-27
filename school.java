@@ -178,13 +178,28 @@ public class school {
         // System.out.println("even:"+even);
         // System.out.println("Odd:"+odd);
 
-        int n[]=new int[5];
-        for(int i=0;i<n.length;i++){
-            n[i]=sc.nextInt();
-        }
-        for(int i=n.length-1;i>=0;i--){
-            System.out.print (n[i]+" ");
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=n.length-1;i>=0;i--){
+        //     System.out.print (n[i]+" ");
             
-        }
+        // }
+
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<n.length;i++){
+        //     // for(int j=i+1;j<n.length;j++){
+            
+        //     // }
+        //     if(n[i]==20){
+        //         System.out.println("Element Found: "+i);
+        //     }
+        // }
+
+        
     }
 }
