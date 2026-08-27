@@ -149,15 +149,42 @@ public class school {
         //     System.out.print(" "+n[i]);
         // }
         
-        int sum=0;
+        // int sum=0;
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<n.length;i++){
+        //     sum=sum+n[i];
+            
+        // }
+        // System.out.println(sum);
+
+
+        // int odd=0;
+        // int even=0;
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<n.length;i++){
+        //     if(n[i]%2==0){
+        //         even++;
+        //     }
+        //     else{
+        //         odd++;
+        //     }
+        // }
+        // System.out.println("even:"+even);
+        // System.out.println("Odd:"+odd);
+
         int n[]=new int[5];
         for(int i=0;i<n.length;i++){
             n[i]=sc.nextInt();
         }
-        for(int i=0;i<n.length;i++){
-            sum=sum+n[i];
+        for(int i=n.length-1;i>=0;i--){
+            System.out.print (n[i]+" ");
             
         }
-        System.out.println(sum);
     }
 }
