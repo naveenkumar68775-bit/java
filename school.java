@@ -200,6 +200,47 @@ public class school {
         //     }
         // }
 
-        
+        // int count=0;
+        // int n[]=new int[5];
+        // for(int i=0;i<n.length;i++){
+        //     n[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<n.length;i++){
+        //     if(n[i]==2){
+        //         count++;
+        //     }
+        // }
+        // System.out.println("Count "+count);
+
+        // int n[]={10,20,30,40,50};
+        // int largest=n[0];
+        // int second=n[1];
+    
+        // for(int i=0;i<n.length;i++){
+        //     if(largest<n[i]){
+        //         second =largest;
+        //         largest=n[i];
+        //     }
+        //     else if(n[i]>second && n[i]!=largest){
+        //         second=n[i];
+
+        //     }
+        // }
+        // System.out.println(largest);
+        // System.out.println(second);
+
+        int []n={1,2,3,1,2,3,2,3,4};
+        for(int i=0;i<n.length;i++){
+            boolean nav=false;
+            for(int j=0;j<n.length;j++){
+                if(n[i]==n[j]){
+                    nav =true;
+                    break;
+                }
+            }
+            if(nav=false){
+                System.out.print(n[i]+" ");
+            }
+        }
     }
 }
