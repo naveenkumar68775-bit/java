@@ -148,5 +148,16 @@ public class school {
         // for(int i=0;i<n.length;i++){
         //     System.out.print(" "+n[i]);
         // }
+        
+        int sum=0;
+        int n[]=new int[5];
+        for(int i=0;i<n.length;i++){
+            n[i]=sc.nextInt();
+        }
+        for(int i=0;i<n.length;i++){
+            sum=sum+n[i];
+            
+        }
+        System.out.println(sum);
     }
 }
