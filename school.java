@@ -229,18 +229,25 @@ public class school {
         // System.out.println(largest);
         // System.out.println(second);
 
-        int []n={1,2,3,1,2,3,2,3,4};
-        for(int i=0;i<n.length;i++){
-            boolean nav=false;
-            for(int j=0;j<n.length;j++){
-                if(n[i]==n[j]){
-                    nav =true;
-                    break;
-                }
-            }
-            if(nav=false){
-                System.out.print(n[i]+" ");
-            }
-        }
+        // int []n={1,2,3,1,2,3,2,3,4};
+        // for(int i=0;i<n.length;i++){
+        //     boolean nav=false;
+        //     for(int j=0;j<n.length;j++){
+        //         if(n[i]==n[j]){
+        //             nav =true;
+        //             break;
+        //         }
+        //     }
+        //     if(nav=false){
+        //         System.out.print(n[i]+" ");
+        //     }
+        // }
+        HashMap<Integer, String> map = new HashMap<>();
+
+map.put(101, "Naveen");
+map.put(102, "Kumar");
+map.put(103, "Harish");
+
+System.out.println(map);
     }
 }

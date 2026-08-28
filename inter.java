@@ -539,17 +539,17 @@ int arr[]={1 ,2 ,2 ,3 ,4 ,4 ,5 ,6 ,6};
 //     }
 
 // }
-Set<Integer> set1 = new HashSet<>(
-    Arrays.asList(10, 20, 30, 40, 50)
-);
+// Set<Integer> set1 = new HashSet<>(
+//     Arrays.asList(10, 20, 30, 40, 50)
+// );
 
-Set<Integer> set2 = new HashSet<>(
-    Arrays.asList(30, 40, 60, 70, 50)
-);
+// Set<Integer> set2 = new HashSet<>(
+//     Arrays.asList(30, 40, 60, 70, 50)
+// );
 
-set1.retainAll(set2);
+// set1.retainAll(set2);
 
-System.out.println(set1);
+// System.out.println(set1);
 
 
 
