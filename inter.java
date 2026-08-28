@@ -24,9 +24,9 @@ import java.util.Set;
  * 
  */
 import java.util.*;
-public class inter{
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+// public class inter{
+//     public static void main(String[] args) {
+        // Scanner sc=new Scanner(System.in);
         
     
         // ArrayList<Integer> n=new ArrayList<>();
@@ -308,15 +308,15 @@ public class inter{
     // }
     // System.out.println(v);/\\
   
-    int v[]=new int[10];
-    v[0]=10;
-    v[1]=80;
-    v[2]=20;
-    v[3]=30;
+    // int v[]=new int[10];
+    // v[0]=10;
+    // v[1]=80;
+    // v[2]=20;
+    // v[3]=30;
 
-    int size=4;
-    int index=2;
-    int element =30;
+    // int size=4;
+    // int index=2;
+    // int element =30;
     // int element=50;
     // if(index<size){
     //     for(int i=size;i>index;i--){
@@ -368,5 +368,39 @@ public class inter{
     //             System.out.print(n[i]+" ");
     //         }
     //     }
+//     }
+// }
+
+import java.util.*;
+
+public class inter {
+    public static void main(String[] args) {
+
+        List<Integer> numbers = new ArrayList<>();
+
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(20);
+
+        System.out.println(numbers);
+
+        System.out.println(numbers.get(1));
+
+        numbers.set(1, 50);
+
+        System.out.println(numbers);
+
+        numbers.remove(2);
+
+        System.out.println(numbers);
+
+        System.out.println(numbers.size());
+
+        System.out.println(numbers.contains(50));
+
+        for (int n : numbers) {
+            System.out.println(n);
+        }
     }
 }
