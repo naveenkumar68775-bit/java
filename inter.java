@@ -456,20 +456,20 @@ public class inter {
         // n.add(100);
         // System.out.println(n);
 
-        int []n=new int[3];
-        // int v=-1;
-        int top=0;
-        n[top]=10;
-        top++;
-        n[top]=20;
-        top++;
-        for(int s:n){
-            System.out.println(s);
-        }
+        // int []n=new int[3];
+        // // int v=-1;
+        // int top=0;
+        // n[top]=10;
+        // top++;
+        // n[top]=20;
+        // top++;
+        // for(int s:n){
+        //     System.out.println(s);
+        // }
 
-        int last=n[top]=30;
+        // int last=n[top]=30;
 
-        System.out.println(last);
+        // System.out.println(last);
 
 
         
