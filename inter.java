@@ -440,5 +440,16 @@ public class inter {
         // System.out.println(numbers);
 
         // System.out.println(numbers.size());
+
+        Stack<Integer> n=new Stack<>();
+        n.push(10);
+        n.push(20);
+        n.push(40);
+        n.push(30);
+        System.out.print(n+" ");
+        System.out.println(n.peek());
+        System.out.println(n.pop());
+                System.out.print(n+" ");
+
     }
 }
