@@ -414,31 +414,31 @@ public class inter {
 
     public static void main(String[] args) {
 
-        LinkedList<Integer> numbers = new LinkedList<>();
+        // LinkedList<Integer> numbers = new LinkedList<>();
 
-        numbers.add(10);
-        numbers.add(20);
-        numbers.add(30);
+        // numbers.add(10);
+        // numbers.add(20);
+        // numbers.add(30);
 
-        System.out.println(numbers);
+        // System.out.println(numbers);
 
-        numbers.addFirst(5);
-        numbers.addLast(40);
+        // numbers.addFirst(5);
+        // numbers.addLast(40);
 
-        System.out.println(numbers);
+        // System.out.println(numbers);
 
-        System.out.println(numbers.getFirst());
-        System.out.println(numbers.getLast());
+        // System.out.println(numbers.getFirst());
+        // System.out.println(numbers.getLast());
 
-        numbers.set(2, 100);
+        // numbers.set(2, 100);
 
-        System.out.println(numbers);
+        // System.out.println(numbers);
 
-        numbers.removeFirst();
-        numbers.removeLast();
+        // numbers.removeFirst();
+        // numbers.removeLast();
 
-        System.out.println(numbers);
+        // System.out.println(numbers);
 
-        System.out.println(numbers.size());
+        // System.out.println(numbers.size());
     }
 }
