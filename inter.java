@@ -441,15 +441,20 @@ public class inter {
 
         // System.out.println(numbers.size());
 
-        Stack<Integer> n=new Stack<>();
-        n.push(10);
-        n.push(20);
-        n.push(40);
-        n.push(30);
-        System.out.print(n+" ");
-        System.out.println(n.peek());
-        System.out.println(n.pop());
-                System.out.print(n+" ");
+        // Stack<Integer> n=new Stack<>();
+        // n.push(10);
+        // n.push(20);
+        // n.push(40);
+        // n.push(30);
+        // System.out.print(n+" ");
+        // System.out.println(n.peek());
+        // System.out.println(n.pop());
+        //         System.out.print(n+" ");
+
+        Vector<Integer> n=new Vector<>();
+        n.add(10);
+        n.add(100);
+        System.out.println(n);
 
     }
 }
