@@ -242,11 +242,23 @@ public class school {
         //         System.out.print(n[i]+" ");
         //     }
         // }
-        HashMap<Integer, String> map = new HashMap<>();
+//         HashMap<Integer, String> map = new HashMap<>();
 
-map.put(101, "Naveen");
-map.put(102, "Kumar");
-map.put(103, "Harish");
+// map.put(101, "Naveen");
+// map.put(102, "Kumar");
+// map.put(103, "Harish");
+
+// System.out.println(map);
+String[] words = {
+    "java", "python", "java",
+    "c", "python", "java"
+};
+
+HashMap<String, Integer> map = new HashMap<>();
+
+for(String word : words) {
+    map.put(word, map.getOrDefault(word, 0) + 1);
+}
 
 System.out.println(map);
     }
