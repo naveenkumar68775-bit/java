@@ -371,36 +371,74 @@ import java.util.*;
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
+
+// public class inter {
+//     public static void main(String[] args) {
+
+//         List<Integer> numbers = new ArrayList<>();
+
+//         numbers.add(10);
+//         numbers.add(20);
+//         numbers.add(30);
+//         numbers.add(20);
+
+//         System.out.println(numbers);
+
+//         System.out.println(numbers.get(1));
+
+//         numbers.set(1, 50);
+
+//         System.out.println(numbers);
+
+//         numbers.remove(2);
+
+//         System.out.println(numbers);
+
+//         System.out.println(numbers.size());
+
+//         System.out.println(numbers.contains(50));
+
+//         for (int n : numbers) {
+//             System.out.println(n);
+//         }
+//     }
+// }
+
+/**
+ * inter
+ */
+import java.util.LinkedList;
 
 public class inter {
+
     public static void main(String[] args) {
 
-        List<Integer> numbers = new ArrayList<>();
+        LinkedList<Integer> numbers = new LinkedList<>();
 
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);
-        numbers.add(20);
 
         System.out.println(numbers);
 
-        System.out.println(numbers.get(1));
-
-        numbers.set(1, 50);
+        numbers.addFirst(5);
+        numbers.addLast(40);
 
         System.out.println(numbers);
 
-        numbers.remove(2);
+        System.out.println(numbers.getFirst());
+        System.out.println(numbers.getLast());
+
+        numbers.set(2, 100);
+
+        System.out.println(numbers);
+
+        numbers.removeFirst();
+        numbers.removeLast();
 
         System.out.println(numbers);
 
         System.out.println(numbers.size());
-
-        System.out.println(numbers.contains(50));
-
-        for (int n : numbers) {
-            System.out.println(n);
-        }
     }
 }
