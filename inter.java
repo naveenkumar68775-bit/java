@@ -521,24 +521,35 @@ int arr[]={1 ,2 ,2 ,3 ,4 ,4 ,5 ,6 ,6};
 // for(int i=0;i<=arr.length-1;i++){
     
 // }
-List<Integer> a=new ArrayList<>();
-List<Integer> b=new ArrayList<>();
+// List<Integer> a=new ArrayList<>();
+// List<Integer> b=new ArrayList<>();
 
-System.out.print("A:");
-for(int i=0;i<5;i++){
-    a.add(sc.nextInt());
-}
-System.out.print("B:");
-for(int i=0;i<5;i++){
-    b.add(sc.nextInt());
-}
-System.out.println(a.retainAll(b));
+// System.out.print("A:");
+// for(int i=0;i<5;i++){
+//     a.add(sc.nextInt());
+// }
+// System.out.print("B:");
+// for(int i=0;i<5;i++){
+//     b.add(sc.nextInt());
+// }
+// System.out.println(a.retainAll(b));
 // for(int i=0;i<5;i++){
 //     if(a[i]==b[i]){
 
 //     }
 
 // }
+Set<Integer> set1 = new HashSet<>(
+    Arrays.asList(10, 20, 30, 40, 50)
+);
+
+Set<Integer> set2 = new HashSet<>(
+    Arrays.asList(30, 40, 60, 70, 50)
+);
+
+set1.retainAll(set2);
+
+System.out.println(set1);
 
 
 
