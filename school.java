@@ -249,17 +249,81 @@ public class school {
 // map.put(103, "Harish");
 
 // System.out.println(map);
-String[] words = {
-    "java", "python", "java",
-    "c", "python", "java"
-};
+// String[] words = {
+//     "java", "python", "java",
+//     "c", "python", "java"
+// };
 
-HashMap<String, Integer> map = new HashMap<>();
+// HashMap<String, Integer> map = new HashMap<>();
 
-for(String word : words) {
-    map.put(word, map.getOrDefault(word, 0) + 1);
-}
+// for(String word : words) {
+//     map.put(word, map.getOrDefault(word, 0) + 1);
+// }
 
-System.out.println(map);
+// System.out.println(map);
+
+// String s = "Naveen";
+
+// System.out.println(s.hashCode());
+// int input[]={1 ,2 ,2 ,3 ,3, 3 ,4 ,4};
+//         HashMap<Integer,Integer> n=new HashMap<>();
+//         // Scanner sc=new Scanner(System.in);
+//         f
+
+
+// String v="programming";
+// char[] c=v.toCharArray();
+
+// HashSet<Character> n=new HashSet<>();
+// import java.util.*;
+
+// public class school{
+//     public static void main(String[] args) {
+        // HashMap<Integer, Integer> map = new HashMap<>();
+
+        // for (int i = 0; i < arr.length; i++) {
+        //     map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        // }
+
+        // int mostFrequent = arr[0];
+        // int maxCount = 0;
+
+        // for (int i = 0; i < arr.length; i++) {
+
+        //     int count = map.get(arr[i]);
+
+        //     if (count > maxCount) {
+        //         maxCount = count;
+        //         mostFrequent = arr[i];
+        //     }
+        // }
+
+        // System.out.println(mostFrequent);
+        //             int[] arr = {10, 20, 10, 10,10,30, 20, 10, 40, 20, 20};
+
+                // int[] arr = {10, 20, 10, 10,10,30, 20, 10, 40, 20, 20};
+                // HashMap<Integer,Integer> v=new HashMap<>();
+                
+                // for(int i=0;i<arr.length;i++){
+                //     v.put(arr[i],v.getOrDefault(arr[i], 0)+1);
+                // }
+
+                // int first=arr[0];
+                // int count=0;
+
+                // for(int i=0;i<arr.length;i++){
+                //     int var=v.get(arr[i]);
+                //     if(var>first){
+                //         count=var;
+                //         first=arr[i];
+
+                //     }
+                // }
+                // System.out.println(first);
+
+
     }
 }
+
+        
+
