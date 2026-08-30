@@ -315,7 +315,7 @@
 //         String n="SACHIN";
 //         String v="SAcHIN";
 //         int res=n.compareTo(v);
-//     System.out.println(res);
+//     System.out.println(res);p
 //     if(res==0){
 //         System.out.println("Equal");
 //     }
@@ -328,3 +328,4 @@
 //     }
 // }
 // }
+

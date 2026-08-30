@@ -438,6 +438,72 @@ class solution{
     //     }
 
     // }
+
+//     String s="a1b12c13";
+//     int i=0;
+//    while(0<s.length()){
+//     char ch=s.charAt(i);
+//     i++;
+
+//    }
+
+// String s="madam";
+// String temp=s;
+// String v="";
+// for(int i=s.length()-1;i>=0;i--){
+//     char ch=s.charAt(i);
+//     v=v+ch;
+// }
+// if(temp.equals(v)){
+//     System.out.println(true);
+// }
+// else{
+//     System.out.println(false);
+// }
+
+// String a="java";
+// String c=("java");
+// // 
+// // String b=new String("java");
+
+
+
+// System.out.println(a==c);
+// System.out.println(a.equals(c));
+
+
+// String name="i 123 am 672 god";
+// String total="";
+// int sum=0;
+
+// String v[]=name.split(" ");
+// for(String i:v){
+//     if(Character.isDigit(i.charAt(0))){
+//         sum=sum+Integer.valueOf(i);
+//     }
+//     else{
+//         total=total+i+" ";
+//     }
+// }
+// System.out.println(sum);
+// System.out.println(total);
+
+int []n={50,10,70,30,100,90,80};
+int a=n[0];
+int b=n[1];
+
+for(int i=0;i<n.length;i++){
+    if(n[i]>a){
+        b=a;
+        a=n[i];
+
+    }
+    if(n[i]>b && a!=n[i]){
+        b=n[i];
+    }
+    
+}
+System.out.print(b);
 }
     
 
