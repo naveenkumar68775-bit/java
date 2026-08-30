@@ -108,6 +108,8 @@ import java.util.*;
 //         }
 //     }
 // }
+import java.util.HashMap;
+
 import java.util.*;
 class solution{
     public static void main(String [] args){
@@ -414,7 +416,28 @@ class solution{
     //     System.out.print(Character.toUpperCase(i.charAt(0))+i.substring(1)+" ");
 
     // }
+
+    // String n="naveen";
+    // String []spl=n.split("");
+    // HashMap<String,String> map=new HashMap<>();
+
+    // for(String i:spl){
+    //     // map.put(spl[i],getOrDefault(spl[i],0)+1);
+    //     System.out.print(i);
+    // }
     
+    // String s="a2b3v2";
+    // for(int i=0;i<s.length();i=i+2){
+    //     char c=s.charAt(i);
+    //     char digit=s.charAt(i+1);
+    //     int count=digit-'0';
+    //     System.out.print(" ");
+        
+    //     for(int j=0;j<count;j++){
+    //         System.out.print(c);
+    //     }
+
+    // }
 }
     
 
