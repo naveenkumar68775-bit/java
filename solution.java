@@ -488,22 +488,45 @@ class solution{
 // System.out.println(sum);
 // System.out.println(total);
 
-int []n={50,10,70,30,100,90,80};
-int a=n[0];
-int b=n[1];
+// int []n={50,10,70,30,100,90,80};
+// int a=n[0];
+// int b=n[1];
 
-for(int i=0;i<n.length;i++){
-    if(n[i]>a){
-        b=a;
-        a=n[i];
+// for(int i=0;i<n.length;i++){
+//     if(n[i]>a){
+//         b=a;
+//         a=n[i];
 
-    }
-    if(n[i]>b && a!=n[i]){
-        b=n[i];
-    }
+//     }
+//     if(n[i]>b && a!=n[i]){
+//         b=n[i];
+//     }
     
+// }
+// System.out.print(b);
+
+// int n[]={10,20,30,40,50};
+// for(int i=n.length-1;i>=0;i--){
+//     System.out.println(n[i]);
+// }
+
+// int []n={1,4,2,1,3,5,2,4,7};
+// for(int i=0;i<=n.length-1;i++){
+//     for(int j=i+1;j<=n.length-1;j++){
+//         if(n[i]==n[j]){
+//             System.out.println(n[i]);
+//         }
+//     }
+// }
+
+int n[]={1,6,0,0,3,0,9,5};
+int v=n[0];
+for(int i=0;i<n.length;i++){
+    if(n[i]>v){
+        System.out.println(n[i]);
+    }
 }
-System.out.print(b);
+
 }
     
 
