@@ -519,13 +519,26 @@ class solution{
 //     }
 // }
 
-int n[]={1,6,0,0,3,0,9,5};
-int v=n[0];
-for(int i=0;i<n.length;i++){
-    if(n[i]>v){
-        System.out.println(n[i]);
-    }
-}
+// int n[]={1,6,0,0,3,0,9,5};
+// int size=n.length;
+
+// int nz=0;int z=0;
+// while(nz<size){
+//     if(n[nz]!=0){
+//         int temp=n[nz];
+//         n[nz]=n[z];
+//         n[z]=temp;
+        
+//         nz++;
+//         z++;
+//     }
+//     else{
+//         nz++;
+//     }
+// }
+// for(int i=0;i<n.length;i++){
+//     System.out.print(n[i]+" ");
+// }
 
 }
     
