@@ -295,3 +295,39 @@
 
 //     }
 // }
+
+// class oop{
+//     public static void main(String []args){
+//         String s="naveen";
+//         char a[]=s.toCharArray();
+//         String v="";
+//         String c="";
+//         for(int i=0;i<a.length;i++){
+//             char ch=s.charAt(i);
+//             if(ch=='a' || ch=='e'||ch=='i' || ch=='o' || ch=='u'){
+//                 v=v+ch;
+//             }
+//             else{
+//                 c=c+ch;
+//             }
+//         }
+//         System.out.println("vowels: "+v);
+//         System.out.println("Consonant: "+c);
+//     }
+// }
+
+/**
+ * oop
+ */
+public class oop {
+
+    public static void main(String[] args) {
+        // int a=5;
+        // int b=10;
+        // a++;
+        // b++;
+        // System.out.println(a++ +b);
+        //         System.out.println(a++ + ++b);
+
+    }
+}
