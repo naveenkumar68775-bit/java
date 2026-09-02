@@ -53,14 +53,43 @@
  * Poly
 
 */
-class gamer{
-    static int a=10;
-}
-class poly {
+// class gamer{
+//     static int a=10;
+// }
+// class poly {
 
+
+//     public static void main(String[] args) {
+//         System.out.println(gamer.a);
+        
+//     }
+// }
+
+/**
+ * Poly
+ */
+/**
+ * InnerPoly
+ 
+*/
+interface innerPoly {
+    void gamer();
+    int a=10;    
+}
+class outer implements innerPoly{
+    public void gamer(){
+        System.out.println("Thunder");
+    }
+} 
+
+ class poly {
 
     public static void main(String[] args) {
-        System.out.println(gamer.a);
+
+        outer v=new outer();
+        System.out.println(v.a);
+        v.gamer();
+    
         
     }
 }
