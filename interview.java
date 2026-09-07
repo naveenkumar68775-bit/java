@@ -78,29 +78,45 @@ public class interview {
     //     }
     // }
 
-    int []n={1 ,2 ,3 ,2, 4 ,1 ,5};
-    int total=0;
-    for(int i=0;i<=n.length-1;i++){
-        boolean not=false;
-        for(int j=i+1;j<n.length;j++){
-            if(n[i]==n[j]){
-                not=true;
-                break;
-            }
-            }
+    // int []n={1 ,2 ,3 ,2, 4 ,1 ,5};
+    // int total=0;
+    // for(int i=0;i<=n.length-1;i++){
+    //     boolean not=false;
+    //     for(int j=i+1;j<n.length;j++){
+    //         if(n[i]==n[j]){
+    //             not=true;
+    //             break;
+    //         }
+    //         }
         
-        if(!not){
+    //     if(!not){
             
-            // total=total+n[i];
-        System.out.println(n[i]);
+    //         // total=total+n[i];
+    //     System.out.println(n[i]);
 
-        }
-        Arrays.sort(n);
-    }
-
-
+    //     }
+    //     Arrays.sort(n);
+    // }
+    // int []n={10 ,20 ,10 ,30 ,20 ,20,10,10 ,500,500,500,500,500,500,40 ,20, 20};
+    // // int count=0;
+    // int max=0;
+    // int element=0;
+    
+    // for(int i=0;i<=n.length-1;i++){
+    //     int count=0;
+    //     for(int j=i+1;j<n.length;j++){
+    //         if(n[i]==n[j]){
+    //             count++;
+    //         }
+    //     }
+    //     if(count>max){
+    //         max=count;
+    //         element=n[i];
+            
+    //     }
 
 
     // }
+    // System.out.println(element);
 }
 }
