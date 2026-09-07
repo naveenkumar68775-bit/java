@@ -78,6 +78,26 @@ public class interview {
     //     }
     // }
 
+    int []n={1 ,2 ,3 ,2, 4 ,1 ,5};
+    int total=0;
+    for(int i=0;i<=n.length-1;i++){
+        boolean not=false;
+        for(int j=i+1;j<n.length;j++){
+            if(n[i]==n[j]){
+                not=true;
+                break;
+            }
+            }
+        
+        if(!not){
+            
+            // total=total+n[i];
+        System.out.println(n[i]);
+
+        }
+        Arrays.sort(n);
+    }
+
 
 
 
