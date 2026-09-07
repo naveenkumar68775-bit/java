@@ -63,8 +63,20 @@ public class interview {
     //     System.out.print(" "+v);
     //     a=b;
     //     b=v;
-
+    // int []v={1,4,5};
+    // // int []n=v.split("");
+    // for(int i=v.length-1;i>=0;i--){
+    //     System.out.println(v[i]);
+    // }
         
+    // int n[]={10 ,20 ,10 ,30 ,20 ,40};
+    // for(int i=0;i<n.length;i++){
+    //     for(int j=i+1;j<n.length;j++){
+    //         if(n[i]==n[j]){
+    //             System.out.println(n[i]);
+    //         }
+    //     }
+    // }
 
 
 
