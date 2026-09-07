@@ -63,8 +63,11 @@ class New{
         HashMap <Integer,Integer> v=new HashMap<>();
         int last=n[0];
         for(int i=0;i<n.length;i++){
-            
+            if(v.containsKey(n[i])){
+                v.put(n[i],v.get(n[i]));
+            }
 
         }
+        System.out.println(v);
     }
 }
