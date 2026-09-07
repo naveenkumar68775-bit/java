@@ -29,6 +29,46 @@ public class interview {
     // }
     // else{
     //     System.out.println(false);
-    }
+    // }
+
+    // int n=22;
+    // int count=0;
+    // for(int i=0;i<=n;i++){
+    //     if(i%n==0){
+    //         count++;
+    //     }
+
+        
+    // }
+    // if(count == 2){
+    //     System.out.println(true);
+    // }
+    // else{
+    //     System.out.println(false);
+    // }
+
+    // int n=5;
+    // int mul=1;
+    // for(int i=1;i<=n;i++){
+    //     mul=mul*i;
+    // }
+    // System.out.println(mul);
+
+    // int a=0;int b=1;
+    // int n=7;
+    // System.out.print(a +" "+b);
+    // for(int i=2;i<=n;i++){
+
+    //     int v=a+b;
+    //     System.out.print(" "+v);
+    //     a=b;
+    //     b=v;
+
+        
+
+
+
+
+    // }
 }
 }
