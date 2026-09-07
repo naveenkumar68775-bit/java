@@ -118,5 +118,21 @@ public class interview {
 
     // }
     // System.out.println(element);
+
+    // String s="hello";
+    // String []arr=s.split("");
+    // String total="";
+    // for(int i=arr.length-1;i>=0;i--){
+    //     total=total+arr[i];
+
+    // }
+    // System.out.println(total);
+
+    // String s="programming";
+    // int count=0;
+    // for(int i=0;i<s.length();i++){
+    //     count++;
+    // }
+    // System.out.println(count);
 }
 }
