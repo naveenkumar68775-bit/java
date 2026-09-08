@@ -105,3 +105,21 @@ import  java.util.Scanner;
 //         t.area();
 //     }
 // }
+
+interface payment{
+    void pay(int v);
+}
+
+class upi implements payment{
+    public  void pay(int v){
+        System.out.println("Payment of "+ v+" Successful..");
+
+    }
+}
+class oops{
+    public static void main(String []args){
+        upi n=new upi();
+        n.pay(1000);
+
+    }
+}
