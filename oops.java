@@ -8,5 +8,18 @@
 //         System.out.println(s.name +" : "+ s.age);
 //     }
 // }
-
-class
+import  java.util.Scanner;
+// class student{
+//     student(String a,int b){
+//         System.out.println(a +" : "+b);
+//     }
+// }
+// class oops{
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         String a=sc.nextLine();
+//         int  b=sc.nextInt();
+//         student s=new student(a,b);
+        
+//     }
+// }
