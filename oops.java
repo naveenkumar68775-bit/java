@@ -23,3 +23,61 @@ import  java.util.Scanner;
         
 //     }
 // }
+
+// class animal{
+//     void sound(){
+//         System.out.println( " sound");
+//     }
+// }
+// class dog extends animal{
+//     void dog(){
+//     System.out.print("dog");
+//     super.sound();
+//     }}
+
+// public class oops {
+
+//     public static void main(String[] args) {
+//         dog d=new dog();
+//         d.dog();
+        
+//     }
+// }
+
+/**
+ * oops
+ */
+
+// class admin{
+//     void add(int a,float b){
+//         System.out.println(a +" : "+b);
+//     }
+//     void add(int a,int b){
+//         System.out.println(a +" : "+b+" : ");
+//     }
+// }
+// public class oops {
+//     public static void main(String[] args) {
+//         admin a=new admin();
+//         a.add(10,30);
+//     }
+// }
+
+// class anima{
+//     void sound(){
+//         System.out.print(" barks");
+//     }
+// }
+
+// class dog extends anima{
+//     void sound(){
+//         System.out.print("Dog");
+//         super.sound();
+//     }
+// }
+// class oops{
+//     public static void main(String[] args) {
+//         dog d=new dog();
+//         d.sound();
+//     }
+// }
