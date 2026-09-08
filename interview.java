@@ -134,5 +134,56 @@ public class interview {
     //     count++;
     // }
     // System.out.println(count);
+
+    // String s="programming";
+    // char []c=s.toCharArray();
+    // for(int i=0;i<c.length;i++){
+    //     boolean value=false;
+    //     for(int j=i+1;j<c.length;j++){
+    //         if(c[i]==c[j]){
+    //     System.out.println(c[i]);
+    //     return;
+                
+    //         }
+    //     }
+    // }
+    Scanner sc=new Scanner(System.in);
+    // int n=sc.nextInt();
+    // Set<Integer> v=new HashSet<>();
+    // for(int i=0;i<n;i++){
+    //     v.add(sc.nextInt());
+    // }
+    // System.out.println(v);
+
+    // HashSet<Integer>Set=new HashSet<>();
+    // for(int i=0;i<n;i++){
+    //     Set.add(sc.nextInt());
+        
+    // }
+    // for(int i=0;i<n;i++){
+    //     if()
+    // }
+
+    // int a[]={1,2,3,4,5};
+    // int b[]={3,4,5,6,7};
+
+    // for(int i=0;i<a.length;i++){
+    //     for(int j=0;j<b.length;j++){
+    //         if(a[i]==b[j]){
+    //             System.out.print(a[i]+" ");
+    //         }
+    //     }
+    // }
+
+    int a[]={10,20,30};
+    int add=40;
+    int v=a.length;
+    
+    
+    a[v]=add;
+    for(int i=0;i<v;i++){
+        System.out.println(a[i]);
+    }
+
 }
 }
