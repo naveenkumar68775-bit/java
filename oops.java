@@ -81,3 +81,27 @@ import  java.util.Scanner;
 //         d.sound();
 //     }
 // }
+
+/**
+ * oops
+ */
+// abstract class  shape{
+//     abstract void area();
+// }
+// class  thunder extends shape{
+//     int r;
+//     thunder (int a){
+//         r=a;
+//     }
+//    void area(){
+//     double total = 3.14*(r*r);
+//     System.out.println(total);
+//    }
+
+// }
+// public class oops {
+//     public static void main(String[] args) {
+//         thunder t=new thunder(5);
+//         t.area();
+//     }
+// }
