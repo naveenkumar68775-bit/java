@@ -85,23 +85,26 @@ class important {
     //     System.out.println(name.indexOf(ch));
     // }
     // }
-    String a="renduth";
-    String b="thunder";
-    int count=0;
-    for(int i=0;i<a.length();i++){
-        char ch=a.charAt(i);
-        for(int j=0;j<b.length();j++){
-            if(ch==b.charAt(j)){
-                count++;
+    // String a="renduth";
+    // String b="thunder";
+    // int count=0;
+    // for(int i=0;i<a.length();i++){
+    //     char ch=a.charAt(i);
+    //     for(int j=0;j<b.length();j++){
+    //         if(ch==b.charAt(j)){
+    //             count++;
                 
-            }
-        }
-    }
-    if(count==a.length()){
-        System.out.println("Anagram");
-    }
-    else{
-        System.out.println("Not");
-    }
+    //         }
+    //     }
+    // }
+    // if(count==a.length()){
+    //     System.out.println("Anagram");
+    // }
+    // else{
+    //     System.out.println("Not");
+    // }
+
+    // String n="thunder hello".toUpperCase();
+    // System.out.println(n);
     }
 }
