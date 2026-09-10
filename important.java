@@ -1,5 +1,7 @@
+import java.util.Scanner;
 class important {
     public static void main(){
+        Scanner sc=new Scanner(System.in);
         // String name="naveen".toUpperCase();
         // System.out.println(name.charAt(0) +""+ name.charAt(2));
         // string s=name.toUpperCase();
@@ -106,5 +108,28 @@ class important {
 
     // String n="thunder hello".toUpperCase();
     // System.out.println(n);
+
+    // String n="Java is easy";
+    // String[] name=n.split(" ");
+    // for(int j=0;j<name.length;j++){
+    //     for(int i=name[j].length()-1;i>=0;i--){
+    //         char c=name[j].charAt(i);
+    //         System.out.print(c);
+    //     }
+    //     System.out.print(" ");
+    // }
+    
+    // String n="abcabcbb";
+    // String store="";
+    // int v=sc.nextInt();
+    // for(int i=0;i<v;i++){
+    //     char ch=n.charAt(i);
+    //     store+=ch;
+    // }
+    // System.out.println(store);
+
+
+
+
     }
 }
