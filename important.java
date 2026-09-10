@@ -127,6 +127,22 @@ class important {
     //     store+=ch;
     // }
     // System.out.println(store);
+//a3b2c1
+    String c="aaabbc";
+    char []ch=c.toCharArray();
+    for(int i=0;i<c.length();i++){
+        if(ch[i]=='0'){
+            continue;
+        }
+        int count=1;
+        for(int j=i+1;j<c.length();j++){
+            if(ch[i]==ch[j]){
+                count++;
+                ch[j]='0';
+            }  
+        }
+        System.out.print(ch[i] +""+count);
+    }
 
 
 
