@@ -334,5 +334,27 @@ class main{
     // arr [2]=3;
     // arr[3]=4;
     // System.out.println(Arrays.toString(arr));
+
+    // StringBuilder name=new StringBuilder("naveen");
+    // name.append("kumar");
+    // System.out.println(name);
+    // String a="Naveen";
+    // StringBuilder b=new StringBuilder("Naveen");
+    // StringBuilder a=new StringBuilder("Naveen");
+    // System.out.println(a.equals(b));
+    // System.out.println(a);
+    // System.out.println(b);
+
+    // String n[]={"n","a","v","e","n"};
+    // System.out.println(n.valueOf());
+
+    // for(int i=0;i<n.length;i++){
+    //     // System.out.println(n.(i));
+    //     System.out.println(Arrays.toString(n));
+    // }
+
+    char []c={'n','a','v'};
+    System.out.println(Arrays.toString(c));
+
 }
 }
