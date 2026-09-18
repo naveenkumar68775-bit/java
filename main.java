@@ -292,5 +292,47 @@ class main{
         // }
         // System.out.println(element);
 
-    }
+        // Input: [10,5,20,8,15]
+// Output: 15
+//             int []n={10,5,20,8,15};
+//             int first=n[0];
+//             int second=n[1];
+//             for(int i=0;i<n.length;i++){
+//                 if(first<n[i]){
+//                     second=first;
+//                     first =n[i];
+                    
+//                 }
+//                 else if(n[1]>second && n[i]!=first){
+//                     second=n[i];
+                  
+//                 }
+//             }
+//   System.out.println(second);
+
+// Input: [0,1,0,3,12]
+// Output: [1,3,12,0,0]
+    //     int []v={0,1,0,3,12};
+    //     // int []empty=new int[0];
+    //     String z="";
+    //         String n="";
+    //     for(int i=0;i<v.length;i++){
+            
+    //         if(v[i]==0){
+    //             z=z+v[i]+",";
+    //         }
+    //         else{
+    //             n=n+v[i]+",";
+    //         }
+    //     }
+    //     System.out.println(n+""+z);
+    // }
+
+    // int []arr=new int[4];
+    // arr [0]=1;
+    // arr [1]=2;
+    // arr [2]=3;
+    // arr[3]=4;
+    // System.out.println(Arrays.toString(arr));
+}
 }
