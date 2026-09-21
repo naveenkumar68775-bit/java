@@ -388,20 +388,42 @@
 
 // }
 
+// class main{
+//     public static void main(String []args){
+//         // int n[]={1,0,3};
+//         // for(int i=0;i<n.length;i++){
+            
+//         // }
+
+//         StringBuilder n=new StringBuilder();
+//         for(int i=0;i<26;i++){
+//             char ch=(char)('a'+i);
+//             n.append(ch);
+//         }
+//         System.out.println(n);
+        
+        
+//     }
+// }
+
+class car{
+    String name ="Thunder";
+    String me="Jilla";
+    car(){
+        System.out.println(name);
+        System.out.println(me);
+        System.out.println(this.name=name);
+        
+    }
+}
+class tyre extends car{
+    tyre(String name){
+        // super("Light");
+        System.out.println("Light");
+    }
+}
 class main{
     public static void main(String []args){
-        // int n[]={1,0,3};
-        // for(int i=0;i<n.length;i++){
-            
-        // }
-
-        StringBuilder n=new StringBuilder();
-        for(int i=0;i<26;i++){
-            char ch=(char)('a'+i);
-            n.append(ch);
-        }
-        System.out.println(n);
-        
-        
+        tyre T=new tyre("Light");
     }
 }
