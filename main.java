@@ -587,3 +587,80 @@
         
 //     }
 // }
+
+/**
+ * main
+ */
+// class staff{
+//     staff(){
+//         System.out.println("Teacher");
+//     }
+
+// }
+// class child1 extends staff{
+//     child1(){
+//         System.out.println("Child 1");
+//     }
+// }
+// class child2 extends child1{
+//     child2(){
+//         System.out.println("Child 2");
+//     }
+// }
+// public class main {
+//     public static void main(String[] args) {
+//         child2 c=new child2();
+        
+        
+// //     }
+// // }
+
+// class nav extends Thread{
+//     // public void run(){
+//     //     System.out.println("Thunder");
+//     // }
+//     public void run(){
+//         System.out.println("God");
+//     }
+
+// }
+// class main{
+//     public static void main(String[] args) {
+
+//         nav n=new nav();
+//         n.start();
+        
+//     }
+// }
+
+/**
+ * main
+ */
+// class A implements Runnable{
+//     public void run(){
+//         System.out.println("Running");
+//     }
+// }
+// public class main {
+
+//     public static void main(String[] args) {
+//         A row=new A();
+
+//         Thread v=new Thread(row);
+//         v.start();
+//     }
+// }
+
+class main{
+    public static void main(String[] args) {
+        int [] arr = {10, 5, 20, 8, 15};
+        int large=arr[0];
+        for(int i=0;i<arr.length;i++){
+            if(large>arr[i]){
+                large=arr[i];
+            }
+        }
+        System.out.println(large);
+
+    }
+}
