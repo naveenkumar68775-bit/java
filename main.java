@@ -651,16 +651,259 @@
 //     }
 // }
 
-class main{
+// class main{
+//     public static void main(String[] args) {
+//         int [] arr = {10, 5, 20, 8, 15};
+//         int large=arr[0];
+//         for(int i=0;i<arr.length;i++){
+//             if(large>arr[i]){
+//                 large=arr[i];
+//             }
+//         }
+//         System.out.println(large);
+
+//     }
+// }
+
+// import java.util.ArrayList;
+// import java.util.HashMap;
+// import java.util.HashSet;
+// import java.util.LinkedHashMap;
+// import java.util.LinkedHashSet;
+// import java.util.LinkedList;
+// import java.util.PriorityQueue;
+// import java.util.Queue;
+
+// import javax.management.Query;
+
+// import org.xml.sax.HandlerBase;
+
+import java.util.HashMap;
+
+/**
+ * main
+ */
+
+
+public class main {
+
     public static void main(String[] args) {
-        int [] arr = {10, 5, 20, 8, 15};
-        int large=arr[0];
-        for(int i=0;i<arr.length;i++){
-            if(large>arr[i]){
-                large=arr[i];
-            }
-        }
-        System.out.println(large);
+        // int []arr={1,2,3,4,5};
+        // int n=0;
+        // for(int i=0;i<arr.length;i++){
+        //     n=n+arr[i];
+
+        // }
+        // System.out.println(n);
+
+        // for(int i=0;i<arr.length;i++){
+        //     if(arr[i]%2==0){
+        //         System.out.print(arr[i] + " ");
+        //     }
+        // }
+
+        // for(int i=0;i<arr.length;i++){
+        //     if(arr[i]==3){
+        //         System.out.println(i);
+        //     }
+        // }
+
+        // String s="Thunder";
+        // // char []ch=s.toCharArray();
+        // String add="";
+        // for(int i=s.length()-1;i>=0;i--){
+        //     char ch=s.charAt(i);
+        //     add=add+ ch;
+
+        // }
+        // System.out.println(add);
+
+        // String s="education";
+        // for(int i=0;i<s.length();i++){
+        //     char ch=s.charAt(i);
+        //     if(ch=='a' ||ch=='e'||ch=='o'|| ch=='i' || ch=='u'){
+        //         System.out.print(ch+" ");
+        //     }
+        // }
+
+        // int n=12345;
+        // int count=0;
+        // while(n>0){
+        //     n=n/10;
+        //     count++;
+        // }
+        // System.out.println(count);
+
+        // int n=12345;
+        // int rev=0;
+
+        // while(n>0){
+        //     int digit=n%10;
+        //     rev=rev*10+digit;
+        //     n=n/10;
+
+        // }
+        // System.out.println(rev);
+
+        // int n=3;
+        // int count=1;
+        // for(int i=1;i<=n;i++){
+        //     if(i%n==0){
+        //         count++;
+        //     }
+        // }
+        // if(count==2){
+        //     System.out.println("prime");
+        // }
+        // else{
+        //     System.out.println("Not");
+        // }
+
+        // int n=6;
+        // int a=0;int b=1;
+        // for(int i=2;i<n;i++){
+        //     int temp =a+b;
+
+        //     System.out.print(a +" "+ b );
+
+            
+        // }
+
+        // ArrayList <Integer>thunder=new ArrayList<>();
+        // thunder.add(10);
+        // thunder.add(20);
+        // thunder.add(30);
+        // thunder.add(40);
+        // thunder.add(50);
+
+        
+        // System.out.println(thunder);
+        // System.out.println(thunder.size());
+//  System.out.println(thunder.remove(2));
+        // for(int i=0;i<5;i++){
+        //     if(thunder.get(i).equals(30)){
+        //         // System.out.println(thunder.remove(i));
+        //         continue;
+        //     }
+        //     else{
+        //         System.out.println(thunder.get(i));
+        //         // continue;
+        //     }
+        // }
+
+    //     LinkedHashSet<Integer> set=new LinkedHashSet<>();
+    //     set.add(1);
+
+    //      set.add(5);
+    //      set.add(2);
+    //      set.add(1);
+    //    set.add(4);
+    //      set.add(5);
+    //      System.out.println(set);
+
+    // int []n={1,2,4,56,3,2,89};
+    // // Queue <Integer> value=new Queue<>();
+    // Queue <Integer> v=new PriorityQueue<>();
+    // for(int i=0;i<n.length;i++){
+    //     v.add(n[i]);
+    // }
+    // System.out.println(v.remove());
+    // System.out.println(v);
+    // for(int i=0;i<n.length;i++){
+    //     System.out.println(n[i]);
+    // }
+        
+    // ArrayList<Integer> list=new ArrayList<>();
+    // list.add(10);
+    // list.add(25);
+    // list.add(7);
+    // list.add(40);
+    // list.add(15);
+    // int value=list.getFirst();
+    // for(int i=0;i<5;i++){
+    //     if(value<list.get(i)){
+    //         value=list.get(i);
+    //     }
+    // }
+    // System.out.println(value);
+
+    // int []n={10 ,20 ,30 ,20, 40};
+    // ArrayList<Integer> set=new ArrayList<>();
+    // // int count=0;
+    // for(int i=0;i<n.length;i++){
+    //     set.add(i);
+    // }
+    // for(int i=0;i<n.length;i++){
+    //     for(int j=1;i<n.length;i++){
+    //         if(set.get(i)==set.get(j)){
+    //             System.out.println(set.get(i));
+    //             return;
+
+    //         }
+    //     }
+    // }
+    // HashMap<Integer,Integer> map=new  HashMap<>();
+    // map.put(0,10);
+    // map.put(1,20);
+
+    // map.put(2,10);
+    // map.put(3,30);
+    // map.put(4,20);
+    // map.put(5,20);
+    // map.put(6,10);
+
+    // for(int i:map.keySet()){
+    //     System.out.println(map.getOrDefault(map, null));
+    // }
+    // int []n={1 ,2 ,2 ,3 ,4 ,4, 5};
+
+    // HashMap<Integer,Integer> map=new HashMap<>();
+    // for(int num:n){
+    //     map.put(num,map.getOrDefault(num,0)+1);
+    // }
+    // for(int key :map.keySet()){
+    //     if(map.get(key)==1){
+    //         System.out.print(key+" ");
+    //     }
+    // }
+
+    // String s="banana";
+    // char []c=s.toCharArray();
+    // HashMap<Character,Integer> map=new HashMap<>();
+    // for(char ch:c){
+    //     map.put(ch,map.getOrDefault(ch, 0)+1);
+    // }
+    // for(char key:map.keySet()){
+    //     System.out.println(key+ " = "+map.get(key));
+    // }
+
+    // String s="aabbbhcccdd";
+    // char []c=s.toCharArray();
+    //  HashMap<Character,Integer> map=new HashMap<>();
+    // for(char ch:c){
+    //     map.put(ch,map.getOrDefault(ch, 0)+1);
+    // }
+    // for(char value:map.keySet()){
+    //     if(map.get(value)==2){
+    //     System.out.println(value);
+    //     }
+    // }
+
+    // String s="programmi ing";
+    // char c[]=s.toCharArray();
+    // HashMap<Character,Integer> map=new HashMap<>();
+
+    // for(char ch:c){
+    //     map.put(ch,map.getOrDefault(ch,0)+1);
+    // }
+    // for(char v:map.keySet()){
+    //     if(map.get(v)>1){
+    //         System.out.println(v);
+    //     }
+    // }
+
+
+
 
     }
 }
