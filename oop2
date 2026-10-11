@@ -1,0 +1,24 @@
+// class name{
+//     name(){
+//         System.out.println("Naveen");
+//     }
+// }
+// class dept extends name{
+//     void place(){
+//         System.out.println("IT");
+//     }
+// }
+// class clg extends name{
+//     clg(){
+//         System.out.println("SSCET");
+//         super();
+//     }
+// }
+
+// class Linked{
+//     public static void main(String[] args) {
+//         clg v=new clg();
+        
+        
+//     }
+// }
