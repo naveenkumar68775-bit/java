@@ -1,0 +1,11 @@
+class overriding{
+    void run(){
+        System.out.println("Thunder");
+    }
+}
+class Linked{
+    public static void main(String[] args) {
+        overriding v=new overriding();
+        
+    }
+}
