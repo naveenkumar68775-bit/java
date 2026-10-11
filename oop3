@@ -1,0 +1,21 @@
+// abstract class name{
+//     abstract void value();
+// }
+// class naveen extends name{
+//     void value(){
+//         System.out.println("Thunder");
+//     }
+// }
+// class god extends naveen{
+//     void value(){
+//         System.out.println("Is Back");
+//     }
+// }
+// class Linked{
+//     public static void main(String[]args){
+//         god v=new god();
+//         naveen n=new naveen();
+//         n.value();
+//         v.value();
+//     }
+// }
