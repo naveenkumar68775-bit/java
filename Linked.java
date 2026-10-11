@@ -147,3 +147,104 @@
 
 //     }
 // }
+
+// class name{
+//     private int num=0;
+//     private String name; 
+    
+    
+//     public void setNum(int num){
+//         this.num=num;
+//     }
+//     public int getNum(){
+//         return num;
+//     }
+//     public void setName(String name){
+//         this.name=name;
+//     }
+//     public String getName(){
+//         return name;
+//     }
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         name n=new name();
+//         n.setNum(10);
+//         n.setName("Naveen");
+//         System.out.println(n.getNum());
+//         System.out.println(n.getName());
+//     }
+// }
+
+// class overriding{
+//     void run(){
+//         System.out.println("Thunder");
+//     }
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         overriding v=new overriding();
+        
+//     }
+// }
+
+// class  over{
+//     void run(){
+//         System.out.println("Thunder");
+//     }
+//     void run(int a){
+//         System.out.println("Lightning");
+//     }
+
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         over v=new over();
+//         v.run();
+//         v.run(5);
+//     }
+// }
+
+// interface name{
+//     void run();
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         name v=new name(){
+//             public void run(){
+//                 System.out.println("Thunder");
+//             }
+//         };
+//         v.run();
+//     }
+// }
+
+/**
+ * Linked
+ */
+// public interface Linked {
+
+//     void run();
+// }
+// class thunder implements Linked{
+//     public void run(){
+//         System.out.println("Thunder");
+//     }
+// }
+// /**
+//  * InnerLinked
+//  */
+// public class InnerLinked {
+
+//     void run(){
+//         System.out.println("Lightning");
+//     }
+// }
+// class LinkedList{
+//     public static void main(String[] args) {
+//         thunder v=new thunder();
+//         v.run();
+//         InnerLinked n=new InnerLinked();
+//         n.run();
+//     }
+// }
