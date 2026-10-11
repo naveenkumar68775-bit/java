@@ -1,0 +1,36 @@
+// class thunder extends Thread{
+//     public void run(){
+//         for(int i=0;i<100;i++){
+//             System.out.println("Thunder");
+//         }
+//     }
+// }
+// class light extends Thread{
+//     public void run(){
+//         for(int i=0;i<=100;i++){
+//             System.out.println("Light");
+//         }
+//     }
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         light L=new light();
+//         thunder T=new thunder();
+//         T.start();
+//         L.start();
+
+        
+//     }
+// }
+
+// interface thunder extends Runnable{
+//     public void run(){
+//     }
+
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         Runnable r=new thunder();
+        
+//     }
+// }
