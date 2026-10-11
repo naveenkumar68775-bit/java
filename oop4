@@ -1,0 +1,19 @@
+// class name{
+//     void revi(){
+//         System.out.println("1ST");
+//     }
+// }
+// class girl extends name{
+//     void revi(){
+//         System.out.println("2ND");
+//     }
+// }
+// public class Linked {
+//     public static void main(String[] args) {
+//         name place = new girl();
+//         place.revi();
+//         name pla=new name();
+//         pla.revi();
+
+//     }   
+// }
