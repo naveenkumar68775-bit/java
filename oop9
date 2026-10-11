@@ -1,0 +1,14 @@
+
+// interface name{
+//     void run();
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         name v=new name(){
+//             public void run(){
+//                 System.out.println("Thunder");
+//             }
+//         };
+//         v.run();
+//     }
+// }
