@@ -1,0 +1,27 @@
+class name{
+//     private int num=0;
+//     private String name; 
+    
+    
+//     public void setNum(int num){
+//         this.num=num;
+//     }
+//     public int getNum(){
+//         return num;
+//     }
+//     public void setName(String name){
+//         this.name=name;
+//     }
+//     public String getName(){
+//         return name;
+//     }
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         name n=new name();
+//         n.setNum(10);
+//         n.setName("Naveen");
+//         System.out.println(n.getNum());
+//         System.out.println(n.getName());
+//     }
+// }

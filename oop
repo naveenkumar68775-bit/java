@@ -1,0 +1,21 @@
+// class thunder {
+//     private int num=0;
+//     // private String name; 
+    
+    
+//     public void setNum(int num){
+//         this.num=num;
+//     }
+//     public int getNum(){
+//         return num;
+//     }
+// }
+// class Linked{
+//     public static void main(String[] args) {
+//         thunder n=new thunder();
+//         n.setNum(10);
+//         System.out.println(n.getNum());
+//         // n.Setplace();
+
+//     }
+// }

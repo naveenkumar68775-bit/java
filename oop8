@@ -1,0 +1,16 @@
+class  over{
+    void run(){
+        System.out.println("Thunder");
+    }
+    void run(int a){
+        System.out.println("Lightning");
+    }
+
+}
+class Linked{
+    public static void main(String[] args) {
+        over v=new over();
+        v.run();
+        v.run(5);
+    }
+}

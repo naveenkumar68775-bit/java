@@ -1,0 +1,26 @@
+public interface Linked {
+
+//     void run();
+// }
+// class thunder implements Linked{
+//     public void run(){
+//         System.out.println("Thunder");
+//     }
+// }
+// /**
+//  * InnerLinked
+//  */
+// public class InnerLinked {
+
+//     void run(){
+//         System.out.println("Lightning");
+//     }
+// }
+// class LinkedList{
+//     public static void main(String[] args) {
+//         thunder v=new thunder();
+//         v.run();
+//         InnerLinked n=new InnerLinked();
+//         n.run();
+//     }
+// }

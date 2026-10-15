@@ -12,3 +12,23 @@
 //         System.out.println("continue");
 //     }
 // }
+
+
+// class buffer{
+//     public static void main(String[] args) {
+//         int n=121;
+//         int temp=n;
+//         int rev=0;
+//         while(n>0){
+//             int digit =n%10;
+//             rev=rev*10+digit;
+//             n=n/10;
+//         }
+//         if(temp==rev){
+//             System.out.println("palindrome");
+//         }
+//         else{
+//             System.out.print("Not palindrome");
+//         }
+//     }
+// }

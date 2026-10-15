@@ -1,0 +1,23 @@
+// class name{
+//     name(){
+//         System.out.println("thunder");
+//     }
+// }
+// class boy extends name{
+//     void boy(){
+//         System.out.println("Lightning");
+//     }
+//     void runing(){
+//         System.out.println("running");
+//     }
+// }
+// class girl extends boy{
+//     void thirl(){
+//         System.out.println("Flash");
+//     }
+//     @Override 
+//     void runing(){
+//         System.out.println("running");
+//     }
+    
+// }
