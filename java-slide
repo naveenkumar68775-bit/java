@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter employee name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter basic salary: ");
+        double salary = sc.nextDouble();
+
+        double hra = salary * 0.20;
+        double da = salary * 0.10;
+        double pf = salary * 0.12;
+
+        double total = salary + hra + da - pf;
+
+        System.out.println("Employee: " + name);
+        System.out.println("HRA: " + hra);
+        System.out.println("DA: " + da);
+        System.out.println("PF: " + pf);
+        System.out.println("Net Salary: " + total);
+
+        sc.close();
+    }
+}
