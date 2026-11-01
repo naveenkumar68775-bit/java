@@ -1,0 +1,23 @@
+import java.util.*;
+//
+//public class naveen {
+//    static void main() {
+//        int []v={10,30,20,30,80,40,50,60,100};
+////        Scanner sc =new Scanner(System.in);
+//        int scan=v[0];
+//        int scan1=v[1];
+//        for(int i=0;i<v.length;i++){
+//            if(v[i]>scan){
+//                scan1=scan;
+//                scan=v[i];
+//            } else if (v[i]>scan1 && scan>v[i]) {
+//                scan1=v[i];
+//            }
+//
+//
+//
+//
+//        }
+//        System.out.println(scan1);
+//
+//    }
