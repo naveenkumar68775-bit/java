@@ -1,0 +1,59 @@
+import java.util.*;
+
+class Solution {
+    public List<Integer> findNumOfValidWords(
+            String[] words, String[] puzzles) {
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // Create frequency map of word masks
+        for (String word : words) {
+
+            int mask = 0;
+
+            for (char c : word.toCharArray()) {
+                mask |= 1 << (c - 'a');
+            }
+
+            // Words with more than 7 unique letters
+            // can never fit inside a puzzle
+            if (Integer.bitCount(mask) <= 7) {
+                map.put(mask, map.getOrDefault(mask, 0) + 1);
+            }
+        }
+
+        List<Integer> answer = new ArrayList<>();
+
+        // Process every puzzle
+        for (String puzzle : puzzles) {
+
+            int puzzleMask = 0;
+
+            for (char c : puzzle.toCharArray()) {
+                puzzleMask |= 1 << (c - 'a');
+            }
+
+            int firstLetterMask = 1 << (puzzle.charAt(0) - 'a');
+
+            int count = 0;
+
+            // Generate all subsets of puzzleMask
+            int sub = puzzleMask;
+
+            while (sub != 0) {
+
+                // Subset must contain first letter
+                if ((sub & firstLetterMask) != 0) {
+                    count += map.getOrDefault(sub, 0);
+                }
+
+                // Generate next subset
+                sub = (sub - 1) & puzzleMask;
+            }
+
+            answer.add(count);
+        }
+
+        return answer;
+    }
+}
