@@ -22,19 +22,25 @@
 //     }
 // }
 
-class Rev{
-    public static void main(String []args){
-        // String str="hello";
-        // int count=0;
-        // for(int i=0;i<str.length();i++){
-        //     count=count+1;
-        // }
-        // System.out.print(count);
+// class Rev{
+//     public static void main(String []args){
+//         // String str="hello";
+//         // int count=0;
+//         // for(int i=0;i<str.length();i++){
+//         //     count=count+1;
+//         // }
+//         // System.out.print(count);
 
-        String str="Thunder";
-        char ch=str.charAt(0);
-        char c=str.charAt(str.length()-1);
-        System.out.println(ch);
-        System.out.print(c);
+//         String str="Thunder";
+//         char ch=str.charAt(0);
+//         char c=str.charAt(str.length()-1);
+//         System.out.println(ch);
+//         System.out.print(c);
+//     }
+// }
+
+class Rev{
+    public static void main(String[]args ){
+        int a=10;int b=20;System.out.print(a+b);
     }
 }
