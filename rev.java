@@ -39,8 +39,22 @@
 //     }
 // }
 
+// class Rev{
+//     public static void main(String[]args ){
+//         int a=10;int b=20;System.out.print(a+b);
+//     }
+// }
+
+
+class thunder{
+    static int a=10;
+    static int b=20;
+
+}
 class Rev{
-    public static void main(String[]args ){
-        int a=10;int b=20;System.out.print(a+b);
+    public static void main(String[]args){
+        
+        System.out.print(thunder.a+thunder.b);
+
     }
 }
